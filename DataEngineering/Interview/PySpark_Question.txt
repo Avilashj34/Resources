@@ -1,0 +1,82 @@
+1.Finding occurance of word from a large file using spark
+2. Split operation in spark
+3. Optimization techniques
+4. How delete Operation works in background
+5. Withcolumn, withcolumrenamed, 
+6. Read large file parelelly and get sum, average, category avg etc
+7. Lit function (few other pyspark functions)
+8. Delta table in databricks (difference between delta table and parquet files saving)
+
+
+
+===========================================
+From Linkedln Credit: PRAVEEN KUMAR BARATAM
+
+Pyspark SQL Functions:
+
+i)PySpark Aggregate Functions:
+
+PySpark SQL Aggregate functions are grouped as “agg_funcs” in Pyspark. Below is a list of functions defined under this group. 
+
+approx_count_distinct
+avg
+collect_list
+collect_set
+countDistinct
+count
+grouping
+first
+last
+kurtosis
+max
+min
+mean
+skewness
+stddev
+stddev_samp
+stddev_pop
+sum
+sumDistinct
+variance, var_samp, var_pop
+
+ii)PySpark Window Functions:
+
+Ranking Functions:
+1)row_number(),
+2)rank(),
+3)dense_rank(),
+4)percent_rank(),
+5)ntile()
+
+Analytic Functions:
+1)cume_dist(),
+2)lag(),
+3)lead()
+
+Aggregate Functions:
+1)sum(),
+2)first(),
+3)last(),
+4)max(),
+5)min(),
+6)mean(),
+7)stddev()
+
+iii)Pyspark JSON Functions:
+
+from_json() – Converts JSON string into Struct type or Map type.
+
+to_json() – Converts MapType or Struct type to JSON string.
+
+json_tuple() – Extract the Data from JSON and create them as a new column.
+
+get_json_object() – Extracts JSON element from a JSON string based on json path specified.
+
+schema_of_json() – Create schema string from JSON string
+
+iv)PySpark SQL Date and Timestamp Functions:
+
+1)Date Functions
+2)Timestamp Functions
+3)Date and Timestamp Window Functions
+

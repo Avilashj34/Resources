@@ -1,0 +1,2 @@
+List of useful resources for Spark
+- https://www.linkedin.com/posts/shailja-mishra-b42845170_microsoft-dataengineering-datascience-activity-6940338353649115136-bvyV
